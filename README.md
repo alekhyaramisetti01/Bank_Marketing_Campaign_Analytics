@@ -72,11 +72,12 @@ financial-metrics-analysis/
 │   └── load_data/                 # Scripts to populate tables using COPY
 │
 ├── dashboard/                     # Tableau dashboards and exports
-│   └── Dashboard 1.pdf            # Final dashboard snapshot/report
+│   └── Dashboard1.png           # Final dashboard snapshot/report
 │
 ├── requirements.txt              # Project dependencies
 └── README.md                     # Project documentation
 
+---
 ---
 
 ## 🧰 Project Workflow
@@ -169,7 +170,7 @@ This project analyzes a bank's direct marketing campaign data to generate action
 ## 📌 Dashboard Snapshot
  
 _Interactive Tableau dashboard showcasing all five KPIs for decision-making._
-![Dashboard Screenshot](dashboard/Dashboard1.png)
+![Dashboard Screenshot](../dashboard/Dashboard1.png)
 
 ---
 
