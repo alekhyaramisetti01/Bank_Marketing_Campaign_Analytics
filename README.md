@@ -171,7 +171,7 @@ This project analyzes a bank's direct marketing campaign data to generate action
 
 _Interactive Tableau dashboard showcasing all five KPIs for decision-making._
 
-![Dashboard Screenshot](../dashboard/Dashboard1.png)
+![Dashboard Screenshot](dashboard/Dashboard1.png)
 
 ---
 
