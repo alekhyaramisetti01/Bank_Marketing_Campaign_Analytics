@@ -14,7 +14,7 @@ This project explores a real-world dataset from a Portuguese banking institution
 
 - **Records**: 41,188 rows  
 - **Attributes**: 20 features (excluding duration to prevent data leakage)  
-- **Source**: [Kaggle Dataset](https://storage.googleapis.com/kaggle-data-sets/1654945/2722500/bundle/archive.zip)  
+- **Source**: [Kaggle Dataset](https://www.kaggle.com/datasets/ruthgn/bank-marketing-data-set)  
 - **Originally analyzed by**: [Moro et al., 2014]
 
 ### Dataset Contents:
@@ -46,7 +46,11 @@ This project explores a real-world dataset from a Portuguese banking institution
 - **VS Code** for development  
 - **GitHub** for version control  
 
-📁 Folder Structure
+---
+
+## 📁 Folder Structure
+
+```
 
 financial-metrics-analysis/
 │
@@ -72,7 +76,6 @@ financial-metrics-analysis/
 │
 ├── requirements.txt              # Project dependencies
 └── README.md                     # Project documentation
-
 
 ---
 
@@ -164,16 +167,15 @@ This project analyzes a bank's direct marketing campaign data to generate action
 ---
 
 ## 📌 Dashboard Snapshot
-
-![Dashboard Preview](./screenshots/dashboard_preview.png)  
+ 
 _Interactive Tableau dashboard showcasing all five KPIs for decision-making._
-![Dashboard Screenshot](dashboard/dashboard_preview.png)
+![Dashboard Screenshot](dashboard/Dashboard1.png)
 
 ---
 
 ## 📎 Attribution
 
-- **Dataset**: [Kaggle - Bank Marketing Dataset](https://storage.googleapis.com/kaggle-data-sets/1654945/2722500/bundle/archive.zip)
+- **Dataset**: [Kaggle - Bank Marketing Dataset](https://www.kaggle.com/datasets/ruthgn/bank-marketing-data-set)
 - **Original Source**: [Moro et al., 2014], University of Minho, Portugal  
 - **Tech Stack**: Python, SQL (PostgreSQL), Tableau, Git
 
