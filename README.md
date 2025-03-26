@@ -78,56 +78,55 @@ financial-metrics-analysis/
 └── README.md                     # Project documentation
 
 ---
----
 
 ## 🧰 Project Workflow
 
 ### 1️⃣ Project Setup
-- Created GitHub repository and cloned to VS Code
-- Created folder structure: `data/raw`, `data/processed`, `sql/create_tables`, `scripts`, etc.
-- Initialized `requirements.txt` with necessary libraries
+- Created GitHub repository and cloned to VS Code  
+- Created folder structure: `data/raw`, `data/processed`, `sql/create_tables`, `scripts`, etc.  
+- Initialized `requirements.txt` with necessary libraries  
 
 ### 2️⃣ Data Preprocessing
-- Loaded raw CSV file into `data/raw/`
-- Cleaned the dataset using Python:
-  - Renamed and standardized column names
-  - Removed nulls and trimmed whitespaces
-  - Exported cleaned data to `data/processed/`
+- Loaded raw CSV file into `data/raw/`  
+- Cleaned the dataset using Python:  
+  - Renamed and standardized column names  
+  - Removed nulls and trimmed whitespaces  
+  - Exported cleaned data to `data/processed/`  
 
 ### 3️⃣ PostgreSQL Table Creation
-- Generated SQL scripts using Python to create:
-  - `bank_marketing` raw table
-  - Normalized dimension tables (`dim_job`, `dim_education`, etc.)
-  - `bank_marketing_fact` fact table
-- Handled PostgreSQL reserved keywords like `default`
+- Generated SQL scripts using Python to create:  
+  - `bank_marketing` raw table  
+  - Normalized dimension tables (`dim_job`, `dim_education`, etc.)  
+  - `bank_marketing_fact` fact table  
+- Handled PostgreSQL reserved keywords like `default`  
 
 ### 4️⃣ Data Normalization
-- Wrote a Python script to extract unique values for categorical columns
-- Created corresponding dimension tables
-- Populated dimension and fact tables using SQL and Python
+- Wrote a Python script to extract unique values for categorical columns  
+- Created corresponding dimension tables  
+- Populated dimension and fact tables using SQL and Python  
 
 ### 5️⃣ Data Loading
-- Loaded all data into PostgreSQL using SQL `COPY` and Python
-- Verified row counts and relationships
+- Loaded all data into PostgreSQL using SQL `COPY` and Python  
+- Verified row counts and relationships  
 
 ### 6️⃣ KPI Development
-- Created 5 KPI SQL queries based on business use cases
-- Saved each as individual `.sql` files in `sql/kpis/`
+- Created 5 KPI SQL queries based on business use cases  
+- Saved each as individual `.sql` files in `sql/kpis/`  
 
 ### 7️⃣ KPI Export Automation
-- Wrote a Python script to:
-  - Read all `.sql` KPI files
-  - Execute them on PostgreSQL
-  - Export results to `.csv` in `data/export/`
+- Wrote a Python script to:  
+  - Read all `.sql` KPI files  
+  - Execute them on PostgreSQL  
+  - Export results to `.csv` in `data/export/`  
 
 ### 8️⃣ Tableau Dashboard Creation
-- Connected Tableau to KPI export `.csv` files
-- Designed 5 visual KPI sheets:
-  - Big Number Tile for Conversion Summary
-  - Bar Charts for Job & Education
-  - Pie Charts for Contact Method & Poutcome
-- Assembled into one executive dashboard layout
-- Added subtitle and source credits to bottom-left corner
+- Connected Tableau to KPI export `.csv` files  
+- Designed 5 visual KPI sheets:  
+  - Big Number Tile for Conversion Summary  
+  - Bar Charts for Job & Education  
+  - Pie Charts for Contact Method & Poutcome  
+- Assembled into one executive dashboard layout  
+- Added subtitle and source credits to bottom-left corner  
 
 ---
 
@@ -168,19 +167,23 @@ This project analyzes a bank's direct marketing campaign data to generate action
 ---
 
 ## 📌 Dashboard Snapshot
- 
+
 _Interactive Tableau dashboard showcasing all five KPIs for decision-making._
+
 ![Dashboard Screenshot](../dashboard/Dashboard1.png)
 
 ---
 
 ## 📎 Attribution
 
-- **Dataset**: [Kaggle - Bank Marketing Dataset](https://www.kaggle.com/datasets/ruthgn/bank-marketing-data-set)
+- **Dataset**: [Kaggle - Bank Marketing Dataset](https://www.kaggle.com/datasets/ruthgn/bank-marketing-data-set)  
 - **Original Source**: [Moro et al., 2014], University of Minho, Portugal  
 - **Tech Stack**: Python, SQL (PostgreSQL), Tableau, Git
 
 ---
-📬 Contact
-Author: Alekhya Ramisetti
-📧 Email: ar89z@umsystem.edu 🔗 LinkedIn: https://www.linkedin.com/in/alekhyaramisetti/
+
+## 📬 Contact
+
+**Author**: Alekhya Ramisetti  
+📧 **Email**: ar89z@umsystem.edu  
+🔗 **LinkedIn**: [linkedin.com/in/alekhyaramisetti](https://www.linkedin.com/in/alekhyaramisetti/)
