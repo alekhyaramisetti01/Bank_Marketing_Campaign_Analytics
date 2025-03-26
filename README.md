@@ -1,4 +1,4 @@
-# 📊 Financial Metrics Analysis & Reporting
+# 📊 Bank Marketing Campaign Analytics: SQL, Python & Tableau KPI Dashboard
 
 Analyze 41K+ banking customer interactions using **SQL**, **Python**, **PostgreSQL**, and **Tableau**. Identify financial behavior patterns, customer segments, and marketing insights, and generate SQL-driven KPIs with interactive Tableau dashboards to support data-driven decision-making.
 
