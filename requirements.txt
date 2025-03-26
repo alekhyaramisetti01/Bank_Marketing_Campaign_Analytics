@@ -1,0 +1,5 @@
+pandas               # For data manipulation, reading/writing CSV, and SQL integration
+numpy                # For numerical operations, especially if needed in analytics
+sqlalchemy           # To build clean connections and run SQL via Python
+psycopg2-binary      # PostgreSQL adapter required for pandas/sqlalchemy to connect to the DB
+matplotlib           # For generating simple plots (e.g., trends, KPIs) directly from Python  
