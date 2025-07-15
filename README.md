@@ -1,6 +1,6 @@
-# 📊 Bank Marketing Campaign Analytics: SQL, Python & Tableau KPI Dashboard
+# 📊 Bank Marketing Campaign Analytics
 
-Analyze 41K+ banking customer interactions using **SQL**, **Python**, **PostgreSQL**, and **Tableau**. Identify financial behavior patterns, customer segments, and marketing insights, and generate SQL-driven KPIs with interactive Tableau dashboards to support data-driven decision-making.
+Analyze 41K+ banking customer interactions using **SQL**, **Python**, **PostgreSQL**, and **Power BI**. Identify financial behavior patterns, customer segments, and marketing insights, and generate SQL-driven KPIs with interactive Power BI dashboards to support data-driven decision-making.
 
 ---
 
@@ -34,7 +34,7 @@ This project explores a real-world dataset from a Portuguese banking institution
 - Write Python scripts to automate table creation, normalization, and loading  
 - Derive actionable KPIs through SQL  
 - Export KPI results into CSV  
-- Build an interactive Tableau dashboard for reporting and insights  
+- Build an interactive Power BI dashboard for reporting and insights  
 
 ---
 
@@ -42,7 +42,7 @@ This project explores a real-world dataset from a Portuguese banking institution
 
 - **Python**: pandas, NumPy, SQLAlchemy, psycopg2, matplotlib  
 - **SQL**: PostgreSQL, schema design, joins, aggregates  
-- **Tableau**: Visualization and KPI dashboard  
+- **Power BI**: Visualization and KPI dashboard  
 - **VS Code** for development  
 - **GitHub** for version control  
 
@@ -57,7 +57,7 @@ financial-metrics-analysis/
 ├── data/                          # All datasets
 │   ├── raw/                       # Original input CSV (from Kaggle)
 │   ├── processed/                 # Cleaned data used for SQL/analysis
-│   └── export/                    # Exported KPI results used in Tableau
+│   └── export/                    # Exported KPI results used in Power BI
 │
 ├── scripts/                       # Python scripts for data cleaning and automation
 │   ├── data_cleaning.py
@@ -71,7 +71,7 @@ financial-metrics-analysis/
 │   ├── kpi/                       # SQL scripts to generate KPI outputs
 │   └── load_data/                 # Scripts to populate tables using COPY
 │
-├── dashboard/                     # Tableau dashboards and exports
+├── dashboard/                     # Power Bi dashboards and exports
 │   └── Dashboard1.png           # Final dashboard snapshot/report
 │
 ├── requirements.txt              # Project dependencies
@@ -120,8 +120,8 @@ financial-metrics-analysis/
   - Execute them on PostgreSQL  
   - Export results to `.csv` in `data/export/`  
 
-### 8️⃣ Tableau Dashboard Creation
-- Connected Tableau to KPI export `.csv` files  
+### 8️⃣ Power BI Dashboard Creation
+- Connected Power Bi to KPI export `.csv` files  
 - Designed 5 visual KPI sheets:  
   - Big Number Tile for Conversion Summary  
   - Bar Charts for Job & Education  
@@ -169,7 +169,7 @@ This project analyzes a bank's direct marketing campaign data to generate action
 
 ## 📌 Dashboard Snapshot
 
-_Interactive Tableau dashboard showcasing all five KPIs for decision-making._
+_Interactive Power BI dashboard showcasing all five KPIs for decision-making._
 
 ![Dashboard Screenshot](dashboard/Dashboard1.png)
 
