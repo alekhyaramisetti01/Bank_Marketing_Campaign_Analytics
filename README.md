@@ -52,7 +52,7 @@ This project explores a real-world dataset from a Portuguese banking institution
 
 ```
 
-financial-metrics-analysis/
+Bank_Marketing_Campaign_Analytics/
 │
 ├── data/                          # All datasets
 │   ├── raw/                       # Original input CSV (from Kaggle)
