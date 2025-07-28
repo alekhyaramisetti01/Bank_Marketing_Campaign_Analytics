@@ -169,7 +169,10 @@ This project analyzes a bank's direct marketing campaign data to generate action
 
 ## 📌 Dashboard Snapshot
 
-_Interactive Power BI dashboard showcasing all five KPIs for decision-making._
+Explore the full Power BI dashboard for the Bank Marketing Campaign Analysis:
+
+🔗 [Click here to view the published report](https://app.powerbi.com/groups/me/reports/b8a11117-98b4-4da4-8963-3b7e40d5d555/4447cef47f9784244525?experience=power-bi)
+
 
 ![Dashboard Screenshot](dashboard.png)
 
