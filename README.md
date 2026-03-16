@@ -185,9 +185,3 @@ Explore the full Power BI dashboard for the Bank Marketing Campaign Analysis:
 - **Tech Stack**: Python, SQL (PostgreSQL), Tableau, Git
 
 ---
-
-## 📬 Contact
-
-**Author**: Alekhya Ramisetti  
-📧 **Email**: ar89z@umsystem.edu  
-🔗 **LinkedIn**: [linkedin.com/in/alekhyaramisetti](https://www.linkedin.com/in/alekhyaramisetti/)
